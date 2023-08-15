@@ -18,4 +18,8 @@
     .intro__text{
         margin-bottom: 30px;
     }
+
+    .contacts__link{
+        font-size: 25px;
+    }
 }
