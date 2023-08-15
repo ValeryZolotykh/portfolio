@@ -34,7 +34,7 @@ body .link:hover {
   align-items: center;
 }
 .main .content {
-  width: 1000px;
+  width: 1100px;
   margin-top: 100px;
   margin-left: 20px;
   margin-right: 10px;
@@ -54,7 +54,7 @@ body .link:hover {
   border-radius: 50%;
 }
 .main .content .projects {
-  margin-top: 30px;
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -74,6 +74,7 @@ body .link:hover {
 }
 .main .content .projects .projects__item .projects__description {
   margin-top: 20px;
+  text-align: justify;
   font-size: 25px;
 }
 .main .content .contacts .contacts__title {

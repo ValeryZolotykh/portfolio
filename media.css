@@ -1,9 +1,5 @@
 @media only screen and (max-width: 990px) {
-    .content {
-        margin-top: 50px;
-    }
-
-    .intro__photo {
+     .intro__photo {
         height: 200px;
         width: 200px;
     }
