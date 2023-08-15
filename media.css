@@ -4,7 +4,8 @@
         width: 200px;
     }
 
-    .projects {
+    .main .content .projects {
+        margin-top: 20px;
         flex-direction: column;
         align-items: center;
     }
@@ -16,7 +17,7 @@
     }
 
     .intro__text{
-        margin-bottom: 10px;
+        margin-bottom: 40px;
     }
 
     .contacts__link{

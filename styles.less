@@ -21,7 +21,6 @@ body {
 }
 
 .main {
-//   height: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +45,17 @@ body {
       .intro__photo {
         padding-left: 25px;
         border-radius: 50%;
-      }
+        @media only screen and (max-width: 990px) {
+            height: 200px;
+            width: 200px;
+          }
+    }
+
+      .intro__text {
+       @media only screen and (max-width: 597px) {
+          margin-bottom: 40px;
+        }
+    }
     }
 
     .projects {
@@ -76,6 +85,12 @@ body {
           font-size: 25px;
         }
       }
+
+      @media only screen and (max-width: 990px) {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+      }
     }
 
     .contacts{
@@ -94,7 +109,11 @@ body {
 
         .contacts__link{
             font-weight: bold;
+
+        @media only screen and (max-width: 597px) {
+            font-size: 25px;
         }
+      }
     }
   }
 }

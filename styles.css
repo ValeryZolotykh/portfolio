@@ -53,6 +53,17 @@ body .link:hover {
   padding-left: 25px;
   border-radius: 50%;
 }
+@media only screen and (max-width: 990px) {
+  .main .content .intro .intro__photo {
+    height: 200px;
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 597px) {
+  .main .content .intro .intro__text {
+    margin-bottom: 40px;
+  }
+}
 .main .content .projects {
   margin-top: 100px;
   display: flex;
@@ -77,6 +88,13 @@ body .link:hover {
   text-align: justify;
   font-size: 25px;
 }
+@media only screen and (max-width: 990px) {
+  .main .content .projects {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .main .content .contacts .contacts__title {
   margin-bottom: 20px;
 }
@@ -89,4 +107,9 @@ body .link:hover {
 }
 .main .content .contacts .contacts__link {
   font-weight: bold;
+}
+@media only screen and (max-width: 597px) {
+  .main .content .contacts .contacts__link {
+    font-size: 25px;
+  }
 }
