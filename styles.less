@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Ubuntu&display=swap');
+
+body {
+  background-color: rgb(255, 244, 231);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+
+  .title {
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .link{
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+      color: rgb(32, 110, 255);
+      text-decoration: underline;
+    }
+  }
+}
+
+.main {
+//   height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+
+    .intro {
+      display: flex;
+      justify-content: space-around;
+
+      .intro__title {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 40px;
+      }
+
+      .intro__photo {
+        padding-left: 25px;
+        border-radius: 50%;
+      }
+    }
+
+    .projects {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .projects__item {
+        width: 300px;
+        margin-bottom: 50px;
+        margin-right: 10px;
+
+        .projects__img {
+          border-radius: 15px;
+        }
+
+        .projects__title {
+          width: 100%;
+          padding-top: 10px;
+          text-align: center;
+        }
+
+        .projects__description {
+          margin-top: 20px;
+          font-size: 25px;
+        }
+      }
+    }
+
+    .contacts{
+        .contacts__title{
+            margin-bottom: 20px;
+        }
+
+        .contacts__list{
+            list-style: none;
+        }
+
+        .contacts__item{
+            margin-bottom: 15px;
+            text-decoration: none;
+        }
+
+        .contacts__link{
+            font-weight: bold;
+        }
+    }
+  }
+}

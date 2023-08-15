@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v26/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_GbQXME.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ubuntu/v20/4iCs6KVjbNBYlgo6eA.ttf) format('truetype');
+}
+body {
+  background-color: #fff4e7;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+}
+body .title {
+  font-family: 'Ubuntu', sans-serif;
+}
+body .link {
+  color: black;
+  text-decoration: none;
+}
+body .link:hover {
+  color: #206eff;
+  text-decoration: underline;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .content {
+  width: 1000px;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+.main .content .intro {
+  display: flex;
+  justify-content: space-around;
+}
+.main .content .intro .intro__title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+.main .content .intro .intro__photo {
+  padding-left: 25px;
+  border-radius: 50%;
+}
+.main .content .projects {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .content .projects .projects__item {
+  width: 300px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
+.main .content .projects .projects__item .projects__img {
+  border-radius: 15px;
+}
+.main .content .projects .projects__item .projects__title {
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
+}
+.main .content .projects .projects__item .projects__description {
+  margin-top: 20px;
+  font-size: 25px;
+}
+.main .content .contacts .contacts__title {
+  margin-bottom: 20px;
+}
+.main .content .contacts .contacts__list {
+  list-style: none;
+}
+.main .content .contacts .contacts__item {
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+.main .content .contacts .contacts__link {
+  font-weight: bold;
+}
