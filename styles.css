@@ -60,6 +60,11 @@ body .link:hover {
   }
 }
 @media only screen and (max-width: 597px) {
+  .main .content .intro .intro__photo {
+    display: none;
+  }
+}
+@media only screen and (max-width: 597px) {
   .main .content .intro .intro__text {
     margin-bottom: 40px;
   }
