@@ -22,6 +22,10 @@ body .title {
 }
 body .link {
   color: #3863b4;
+  text-decoration: none;
+  cursor: pointer;
+}
+body .link:hover {
   text-decoration: underline;
 }
 .main {
@@ -82,7 +86,11 @@ body .link {
 .main .content .projects .projects__item .projects__title {
   width: 100%;
   padding-top: 10px;
+  padding-bottom: 15px;
   text-align: center;
+}
+.main .content .projects .projects__item .projects__link-github {
+  font-size: 23px;
 }
 .main .content .projects .projects__item .projects__description {
   margin-top: 20px;
